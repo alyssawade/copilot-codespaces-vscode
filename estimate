@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estimate Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .header {
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+    }
+    .header img {
+      max-width: 200px;
+    }
+    .main-content {
+      padding: 20px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .details {
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    .footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <img src="your-logo.png" alt="Logo">
+    <h1>Estimate Template</h1>
+  </div>
+  <div class="main-content">
+    <div class="section">
+      <div class="section-title">Customer Information:</div>
+      <div class="details">
+        <p>Name: [Customer Name]</p>
+        <p>Address: [Customer Address]</p>
+        <p>Email: [Customer Email]</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">Services & Pricing:</div>
+      <div class="details">
+        <p>Service 1: [Price]</p>
+        <p>Service 2: [Price]</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>Thank you for choosing our services!</p>
+  </div>
+</body>
+</html>
